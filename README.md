@@ -1,28 +1,23 @@
-# CompetitionCourse
+CompetitionCourse
+Description:
+CompetitionCourse is a C++ class library designed for calculating and displaying the results of sports competitions. The library allows creating competitions, adding participants, recording round results, and generating final results.
 
-## Опис
-`CompetitionCourse` - це бібліотека класів на мові програмування C++ для підрахунку та виведення результатів спортивних змагань. Бібліотека дозволяє створювати змагання, додавати учасників, записувати результати по раундах та формувати підсумкові результати.
+Functionality
+Participant: Class for storing information about competition participants.
+Competition: Class for managing competitions and participant results.
+ResultManager: Class for managing multiple competitions.
+Installation and Setup in Visual Studio
+1.Clone the repository:
+ git clone https://github.com/your-username/CompetitionCourse.git
 
-## Функціональність
-- **Participant**: клас для зберігання інформації про учасників змагань.
-- **Competition**: клас для управління змаганнями та результатами учасників.
-- **ResultManager**: клас для управління декількома змаганнями.
+ Open the project in Visual Studio:
 
-## Встановлення та налаштування у Visual Studio
+Launch Visual Studio.
+Open the project by selecting "Open a project or solution" and specifying the path to the .vcxproj file of your project.
+Usage
+Example of using the library to create a competition, add participants, and record results:
 
-1. **Клонування репозиторію**:
-   ```sh
-   git clone https://github.com/ваш-користувач/CompetitionCourse.git
-
- 2.  Відкриття проекту у Visual Studio:
-
- Запустіть Visual Studio.
- Відкрийте проект, вибравши опцію "Open a project or solution" та вказавши шлях до файлу .vcxproj вашого проекту.
-
- Використання:
- Приклад використання бібліотеки для створення змагання, додавання учасників та запису результатів:
-
- #include "Participant.h"
+#include "Participant.h"
 #include "Competition.h"
 #include "ResultManager.h"
 
@@ -46,8 +41,7 @@ int main() {
     return 0;
 }
 
+License
+This project is licensed under the MIT License. For more details, see the LICENSE file.
 
-Ліцензія:
-Цей проект ліцензований під ліцензією MIT. Детальніше дивіться у файлі LICENSE.
-
-Цей файл README.md містить загальний опис проекту, інструкції щодо встановлення та використання у Visual Studio, приклад коду для початку роботи з бібліотекою і інформацію про запуск тестів. Також він надає рекомендації для інших користувачів щодо використання бібліотеки у власних проектах.
+This README.md file provides a general description of the project, installation and usage instructions in Visual Studio, an example code to get started with the library, and information on running tests. It also offers recommendations for other users on how to use the library in their own projects.
